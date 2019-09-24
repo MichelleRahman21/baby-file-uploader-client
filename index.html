@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body>
-      <h1>Browser Template</h1>
-    </body>
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+  <h1>File Uploader</h1>
+  <div>
+    <div class="row">
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <label for="file-upload">Upload a file!</label>
+            <input type="file" class="form-control-file" id="file-upload">
+            <input type="submit" value="Upload">
+          </div>
+        </form>
+    </div>
+        <div class="row">
+          <div class="col-6 display"></div>
+        </div>
+      </div>
+</body>
+
 </html>
